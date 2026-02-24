@@ -1,0 +1,12 @@
+server:
+  host: "localhost"
+  port: "8000"
+  documents_path: "/swagger/docs/index.html"
+
+database:
+  type: "postgresql"
+  host: "localhost"
+  port: "5432"
+  username: "postgres"
+  database_name: "short_url"
+  sslmode: "disable"
